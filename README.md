@@ -184,7 +184,7 @@ self.startTask = achain;
    - (void)preperLoad {
        // 有可能是比较费时的操作,写在这
        
-       // 判断isLoadComplate
+       // 判断isActionFlag
        if (self.isActionFlag) {
            // 执行弹窗逻辑
        } else {
